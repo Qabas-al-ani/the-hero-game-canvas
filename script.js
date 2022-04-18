@@ -34,3 +34,13 @@ const platformHeight = 100;
 const heroDistanceFromEdge = 10; // While waiting
 const paddingX = 100; // The waiting position of the hero in from the original canvas size
 const perfectAreaSize = 10;
+
+// The background moves slower than the hero
+const backgroundSpeedMultiplier = 0.2;
+
+const hill1BaseHeight = 100;
+const hill1Amplitude = 10;
+const hill1Stretch = 1;
+const hill2BaseHeight = 70;
+const hill2Amplitude = 20;
+const hill2Stretch = 0.5;
