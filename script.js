@@ -7,3 +7,7 @@ Follow me on twitter for more: https://twitter.com/HunorBorbely
 Array.prototype.last = function () {
   return this[this.length - 1];
 };
+// A sinus function that acceps degrees instead of radians
+Math.sinus = function (degree) {
+  return Math.sin((degree / 180) * Math.PI);
+};
