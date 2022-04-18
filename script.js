@@ -53,3 +53,14 @@ const fallingSpeed = 2;
 
 const heroWidth = 17; // 24
 const heroHeight = 30; // 40
+
+const canvas = document.getElementById("game");
+canvas.width = window.innerWidth; // Make the Canvas full screen
+canvas.height = window.innerHeight;
+
+const ctx = canvas.getContext("2d");
+
+const introductionElement = document.getElementById("introduction");
+const perfectElement = document.getElementById("perfect");
+const restartButton = document.getElementById("restart");
+const scoreElement = document.getElementById("score");
