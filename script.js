@@ -44,3 +44,12 @@ const hill1Stretch = 1;
 const hill2BaseHeight = 70;
 const hill2Amplitude = 20;
 const hill2Stretch = 0.5;
+
+const stretchingSpeed = 4; // Milliseconds it takes to draw a pixel
+const turningSpeed = 4; // Milliseconds it takes to turn a degree
+const walkingSpeed = 4;
+const transitioningSpeed = 2;
+const fallingSpeed = 2;
+
+const heroWidth = 17; // 24
+const heroHeight = 30; // 40
